@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68327" started-at="2019-09-19T20:54:08Z" finished-at="2019-09-19T20:55:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68327" started-at="2019-09-19T20:54:08Z" finished-at="2019-09-19T20:55:16Z">
+      <class name="com.testClass.CRMContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:1, instance:com.testClass.CRMContactsPageTest@29774679]" name="setup" duration-ms="12241" started-at="2019-09-19T20:54:08Z" finished-at="2019-09-19T20:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTitle()[pri:2, instance:com.testClass.CRMContactsPageTest@29774679]" name="validateTitle" duration-ms="6" started-at="2019-09-19T20:54:20Z" finished-at="2019-09-19T20:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="clickcontactlink()[pri:3, instance:com.testClass.CRMContactsPageTest@29774679]" name="clickcontactlink" duration-ms="3307" started-at="2019-09-19T20:54:20Z" finished-at="2019-09-19T20:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcontactlink -->
+        <test-method status="PASS" signature="validateAddNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.testClass.CRMContactsPageTest@29774679]" name="validateAddNewContact" duration-ms="8868" started-at="2019-09-19T20:54:24Z" data-provider="getCRMTestData" finished-at="2019-09-19T20:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scarlett]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Johanson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wipro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddNewContact -->
+        <test-method status="PASS" signature="validateAddNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.testClass.CRMContactsPageTest@29774679]" name="validateAddNewContact" duration-ms="8917" started-at="2019-09-19T20:54:33Z" data-provider="getCRMTestData" finished-at="2019-09-19T20:54:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Angelina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jolie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TechM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddNewContact -->
+        <test-method status="PASS" signature="validateAddNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.testClass.CRMContactsPageTest@29774679]" name="validateAddNewContact" duration-ms="8656" started-at="2019-09-19T20:54:42Z" data-provider="getCRMTestData" finished-at="2019-09-19T20:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Johnny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Depp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BNP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddNewContact -->
+        <test-method status="PASS" signature="validateAddNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.testClass.CRMContactsPageTest@29774679]" name="validateAddNewContact" duration-ms="8283" started-at="2019-09-19T20:54:50Z" data-provider="getCRMTestData" finished-at="2019-09-19T20:54:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bradd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddNewContact -->
+        <test-method status="PASS" signature="validateAddNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.testClass.CRMContactsPageTest@29774679]" name="validateAddNewContact" duration-ms="8604" started-at="2019-09-19T20:54:59Z" data-provider="getCRMTestData" finished-at="2019-09-19T20:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Leonardo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dicaprio]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ford]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddNewContact -->
+        <test-method status="PASS" signature="validateAddNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.testClass.CRMContactsPageTest@29774679]" name="validateAddNewContact" duration-ms="8712" started-at="2019-09-19T20:55:07Z" data-provider="getCRMTestData" finished-at="2019-09-19T20:55:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arnold]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Swag]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ICU Medical]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddNewContact -->
+      </class> <!-- com.testClass.CRMContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
